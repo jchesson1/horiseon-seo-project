@@ -4,10 +4,11 @@
     margin: 0;
 }
 
-main {
+body {
     background-color: #d9dcd6;
 }
 
+/* Changed to a header tag instead of header class */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,6 +25,7 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
+/*Changed header div to nav*/
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -44,6 +46,12 @@ header nav ul li {
 a {
     color: #ffffff;
     text-decoration: none;
+    display: inline-block;
+}
+
+/*Gave link a hover state*/
+a:hover {
+    text-decoration: underline;
 }
 
 p {
@@ -52,11 +60,37 @@ p {
 
 figure {
     height: 800px;
-    width: 100%;
+    width: auto;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+}
+
+/* Added a main tag*/
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/*Changed each section to a section tag then changed the style of its children*/
+main section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+main section img {
+    max-height: 200px;
+}
+
+main section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 .float-left {
@@ -69,12 +103,7 @@ figure {
     margin-left: 25px;
 }
 
-article {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
+/* Added an aside tag*/
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -86,38 +115,21 @@ aside {
     background-color: #2589bd;
 }
 
-.benefit {
+/*Changed each section to a section tag then changed the style of its children*/
+aside section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit h3 {
+aside section h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit img {
+aside section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-.placeholder {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.placeholder img {
-    max-height: 200px;
-}
-
-.placeholder h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 footer {
@@ -127,6 +139,7 @@ footer {
     text-align: center;
 }
 
-footer h2 {
+/* Changed footer h2 to footer h4*/
+footer h4 {
     font-size: 20px;
 }
