@@ -16,6 +16,8 @@ Alt attributes were also added to the images to improve accesibility.
 
 The changes above made this website more easily acessible and organized, as well as more optimized for search engines.
 
+## Website URL 
+https://jchesson1.github.io/horiseon-seo-project/
 
 
 
