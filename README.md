@@ -19,5 +19,10 @@ The changes above made this website more easily acessible and organized, as well
 ## Website URL 
 https://jchesson1.github.io/horiseon-seo-project/
 
+## Screenshot
+![screenshot 1](../horiseon-seo-project/assets/horiseon1.jpg)
+
+![screenshot 2](../horiseon-seo-project/assets/horiseon2.jpg)
+
 
 
